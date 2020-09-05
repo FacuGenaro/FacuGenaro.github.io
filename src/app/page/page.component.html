@@ -1,0 +1,46 @@
+<div class="container">
+    <p>Posted by u/{{ jsonData ? jsonData[1].username : ''}}</p>
+    <h6>Obtenga su recuerdo por el día de los inocentes</h6>
+    <div class="container-fluid">
+        <div class="buttonContainer container-fluid" id="clickDiv">
+            <p id="reloj"></p>
+            <button type="button" id="button" class="btn btn-light"></button>
+        </div>
+        <div class="table-responsive-sm" id="t1">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Color</th>
+                        <th scope="col">Cantidad de clicks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" id="violeta">Violeta</th>
+                        <td  id="v1">104566</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="azul">Azul</th>
+                        <td  id="v2">104234</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="verde">Verde</th>
+                        <td id="v3">42267</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="amarillo">Amarillo</th>
+                        <td id="v4">38912</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="naranja">Naranja</th>
+                        <td  id="v5">18954</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" id="rojo">Rojo</th>
+                        <td id="v6">15190</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
