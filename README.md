@@ -2,6 +2,8 @@
 
 Intenté hacer algo similar a como se ve la pagina de Reddit en modo oscuro (adjunto captura https://puu.sh/Gpqoq/aebb7923f5.png)
 
+Url de la pagina hosteada: https://facugenaro.github.io/FacuGenaro.github.io/
+
 Solucion a los problemas propuestos:
 
 * El 'clickeo' del botón es una acción irreversible. Se desea evitar presiones accidentales. Al clickear se me asigna el color acorde a cuando clikie.
